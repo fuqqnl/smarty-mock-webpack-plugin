@@ -26,6 +26,11 @@ const SmartyMockPlugin = require('smarty-mock-webpack-plugin');
 module.exports = {
     //...
     plugins: [
+	new HTMLWebpackPlugin({
+             filename: 'index.html',
+             template: './index.html',
+             inject: true
+         }),
 	new SmartyMockPlugin(require(__dirname + '/../mock/home.json'));
     ]
 }
