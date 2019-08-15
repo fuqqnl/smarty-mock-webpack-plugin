@@ -1,4 +1,5 @@
 ## smarty-mock-webpack-plugin
+
  smarty-mock-webpack-plugin是用于单页面应用中，在类似于index.html的顶层页面中处理服务端用php或smarty返回同步数据的情况。返回的数据需要放在我们前端页面的全局中使用时，可以使用此插件。
 
 ### Install
@@ -35,5 +36,3 @@ module.exports = {
     ]
 }
 ```
-
-
