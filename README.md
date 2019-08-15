@@ -7,14 +7,16 @@
 npm install smarty-mock-webpack-plugin -D
 ```
 
-### Dictionary
+### Tips
 
 > 在单页应用中，可以说只会在入口的html文件中获取同步返回的数据，一般没有其它操作。有其它操作的情况，后面会陆续添加。如果您用其它一些比较复杂的smarty操作，
-> 那么这个插件可能不适合
-> 处理的几种情况：
-> {%$data%}
-> {%json_encode($data.data)%}
-> {%assign var="name" value="val"%}
+> 那么这个插件可能不适合。
+
+
+* 处理的几种情况：
+* {%$data%}
+* {%json_encode($data.data)%}
+* {%assign var="name" value="val"%}
 
 ### Usage
 
