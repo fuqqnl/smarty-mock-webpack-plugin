@@ -1,0 +1,23 @@
+{
+  "name": "smarty-mock-webpack-plugin",
+  "version": "1.0.0",
+  "description": "samrty Mock webpack plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuqqnl/smarty-mock-webpack-plugin.git"
+  },
+  "keywords": [
+    "smarty",
+    "mock"
+  ],
+  "author": "fuqqnl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuqqnl/smarty-mock-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/fuqqnl/smarty-mock-webpack-plugin#readme"
+}
